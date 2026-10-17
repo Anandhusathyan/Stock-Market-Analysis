@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Stock Analysis</title>
+</head>
+
+<body>
+    <main>
+        <h1>Stock Market Analysis</h1>
+        <div id="chart-container">
+            <section id="chart-section">
+                <span id="peak_value">Peak value: 636</span>
+                <span id="low_value">Low value: 565</span>
+                <canvas id="graph"></canvas>
+                <div id="chart-button">
+                    <button id="btn1">1 Month</button>
+                    <button id="btn2">3 Month</button>
+                    <button id="btn3">1 Year</button>
+                    <button id="btn4">5 Years</button>
+                </div>
+            </section>
+            <section id="list-section">
+                <ul>
+                    <!-- <li><button>AAPL</button><span>$3.953</span><span>0.24%</span></li>
+                    <li><button>DIS</button><span>$53.563</span><span>0.05%</span></li> -->
+                </ul>
+            </section>
+        </div>
+
+        <section id="about-stock">
+            <details></details>
+        </section>
+    </main>
+    <script type="module" src="./graph.js"></script>
+</body>
+
+</html>
+
+<!-- width="800" height="450" -->

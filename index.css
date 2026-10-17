@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(2, 2, 39);
+}
+
+main{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#chart-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#chart-section{
+    margin-left:30px;
+    width: 55%;
+    background-color: #07064f;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#chart-section span{
+    color: white;
+    display: block;
+    margin: 20px;
+    font-size:larger;
+    text-align: left;
+}
+
+#graph{
+    width: 100%;
+    border-radius: 20px;
+    height: 600px;
+}
+
+#chart-button{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#chart-button button{
+    padding: 10px;
+    font-size: large;
+    border-radius: 20px;
+    background-color: #07064f;
+    color: white;
+    border: 2px solid #b7bacb;
+    cursor: pointer;
+}
+
+#chart-button button.active,
+#list-section ul li button.active{
+    background-color: #00a86b;
+    border-color: #61ffb9;
+    color: #ffffff;
+}
+
+#list-section{
+    margin-right: 100px;
+}
+
+#list-section ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    row-gap: 10px;
+}
+
+#list-section ul li button{
+    padding: 5px;
+    font-size: large;
+    background-color: #07064f;
+    color: white;
+    width: 80px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 2px solid #b7bacb;
+    cursor: pointer;
+}
+
+#list-section ul li span{
+    font-size: larger;
+    margin-right: 20px;
+    color: white;
+    display: inline-block;
+    width: 50px;
+}
+#about-stock summary{
+    color: white;
+    margin-top: 50px;
+    list-style: none;
+    font-size: large;
+    margin-left:30px;
+    margin: 50px 0px 30px 30px;
+    width: 55%;
+}
